@@ -1,0 +1,41 @@
+{
+ "Type1" : [
+	{ "no": 5, "mondaibun": "1+1=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4" },
+	{ "no": 6, "mondaibun": "1+2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4" },
+	{ "no": 7, "mondaibun": "2x3=", "choiceA": "5", "choiceB": "6", "choiceC": "7", "choiceD": "8" },
+	{ "no": 8, "mondaibun": "6/2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4" }
+      ],
+ "Type4" : [
+	{ "no": 5, "mondaibun": "TCPは第何層のプロトコルか", "choiceA": "1層", "choiceB": "2層", "choiceC": "3層", "choiceD": "4層", "correct": "choiceD" },
+	{ "no": 6, "mondaibun": "UDPは第何層のプロトコルか", "choiceA": "1層", "choiceB": "2層", "choiceC": "3層", "choiceD": "4層", "correct": "choiceD" },
+	{ "no": 7, "mondaibun": "TCPが可能なものはどれか", "choiceA": "ユニキャスト", "choiceB": "ブロードキャスト", "choiceC": "マルチキャスト", "choiceD": "型キャスト", "correct": "choiceA" },
+	{ "no": 8, "mondaibun": "TCPの機能でないものはどれか", "choiceA": "輻輳制御", "choiceB": "フロー制御", "choiceC": "CRCによるエラー検出", "choiceD": "ACKを返す", "correct": "choiceC" },
+	{ "no": 9, "mondaibun": "TCPが保証するものはどれか", "choiceA": "メッセージの境界の保持", "choiceB": "メッセージの順序", "choiceC": "メッセージの到着時間", "choiceD": "メッセージのエラー訂正", "correct": "choiceB" },
+	{ "no": 10, "mondaibun": "接続要求の待ち行列から１つを取り出すシステムコールはどれか", "choiceA": "socket()", "choiceB": "bind()", "choiceC": "listen()", "choiceD": "accept()", "correct": "choiceD" },
+	{ "no": 11, "mondaibun": "接続要求の待ち受け状態に入るシステムコールはどれか", "choiceA": "socket()", "choiceB": "bind()", "choiceC": "listen()", "choiceD": "accept()", "correct": "choiceC" },
+	{ "no": 12, "mondaibun": "メッセージを受信するシステムコールはどれか", "choiceA": "send()", "choiceB": "recv()", "choiceC": "close()", "choiceD": "connect()", "correct": "choiceB" },
+	{ "no": 13, "mondaibun": "ソケットにIPアドレスやポート番号を割り当てるシステムコールはどれか", "choiceA": "socket()", "choiceB": "bind()", "choiceC": "open()", "choiceD": "close()", "correct": "choiceB" },
+	{ "no": 14, "mondaibun": "クライアントが実行するシステムコールはどれか", "choiceA": "send()", "choiceB": "recv()", "choiceC": "close()", "choiceD": "connect()", "correct": "choiceD" },
+	{ "no": 15, "mondaibun": "TCPを使うプロトコルはどれか", "choiceA": "DNS", "choiceB": "HTTP", "choiceC": "RIP", "choiceD": "TFTP", "correct": "choiceB" },
+	{ "no": 16, "mondaibun": "メールの送信に使われるプロトコルはどれか", "choiceA": "SSH", "choiceB": "SNMP", "choiceC": "SMTP", "choiceD": "SIP", "correct": "choiceC" }
+	  ],
+ "Type6" : [
+	{ "no": 5, "mondaibun": "1+1=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceB" },
+	{ "no": 6, "mondaibun": "1+2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceC" },
+	{ "no": 7, "mondaibun": "2x3=", "choiceA": "5", "choiceB": "6", "choiceC": "7", "choiceD": "8", "correct": "choiceB" },
+	{ "no": 8, "mondaibun": "6/2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceC" },
+	{ "no": 9, "mondaibun": "1+1=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceB" },
+	{ "no": 10, "mondaibun": "1+2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceC" },
+	{ "no": 11, "mondaibun": "2x3=", "choiceA": "5", "choiceB": "6", "choiceC": "7", "choiceD": "8", "correct": "choiceB" },
+	{ "no": 12, "mondaibun": "6/2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceC" },
+	{ "no": 13, "mondaibun": "1+1=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceB" },
+	{ "no": 14, "mondaibun": "1+2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceC" },
+	{ "no": 15, "mondaibun": "2x3=", "choiceA": "5", "choiceB": "6", "choiceC": "7", "choiceD": "8", "correct": "choiceB" },
+	{ "no": 16, "mondaibun": "6/2=", "choiceA": "1", "choiceB": "2", "choiceC": "3", "choiceD": "4", "correct": "choiceC" }
+	  ],
+  "Type5" : [
+	    { "コメント" : "H29M12D29現在、Type4を使っている" },
+	    { "コメント" : "問題配列は最後だけカンマ不要なので注意" }
+      ]
+}
+

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  
+  h2: p: font(color='red') #{errMsg} 
+  //p errMsgは #{errMsg}
+  
+  // Passportを使う場合は、nameはusernameとpasswordで固定しないといけない。
+  p ユーザー名とパスワードを入力して下さい 
+  form( method='post', action='/login')
+    p ユーザー名:
+      input( type='text', name='username' )
+    p パスワード:
+      input( type='password', name='password' )
+    input( type='submit', value='ログイン' )
+

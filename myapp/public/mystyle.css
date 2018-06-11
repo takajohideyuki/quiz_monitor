@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	/*  height: 100%; これがあるとbodyの範囲がおかしくなる。おそらくVirtualDOMの計算に失敗するのだろう*/
+	/*  Visual Codeでこのファイルを開くと、上のhtmlの文字列にアンダーラインがあるのは、設定が空だから。
+		よって気にしなくていいだろう。
+	*/
+}
+
+body {
+	background: #F5F6C5;
+/*	height: 100%; これがあるとbodyの範囲がおかしくなる。おそらくVirtualDOMの計算に失敗するのだろう*/
+	margin: 30px;
+	padding: 50px;
+	border: 1px dotted #1C1C1C;
+}
+
+h1{
+	color:blue;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.showAllMondai {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	height: 100%;
+	width: 70%;
+	padding: 0 15pt;
+	overflow: auto;
+}
+
+.showOneMondai {
+	position: relative;
+	z-index: 1;
+	background:#eee;
+	width: 100%;
+	padding: 0px 10px 10px 20px;
+	margin: 0 0 10px 0;
+	overflow: auto;
+	border: 1px solid #1C1C1C;
+	border-radius: 10px;
+}

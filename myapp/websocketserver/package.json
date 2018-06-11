@@ -1,0 +1,16 @@
+{
+  "name": "websocketserver",
+  "version": "1.0.0",
+  "description": "kakenhi monitoring ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Hideyuki Takajo",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "socket.io": "^1.7.4"
+  }
+}
